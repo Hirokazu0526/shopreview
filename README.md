@@ -1,4 +1,7 @@
 # nuxt-app
+ShopReviewAPP
+ショップレビューができるサイトを制作
+Firebaseのサービスを利用しStoreやStorageからデータを登録／抽出して表示しております。
 
 ## Build Setup
 
