@@ -74,18 +74,6 @@ export default Vue.extend({
       },
     }
   },
-  head() {
-    return {
-      title: this.shop.shopName,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.shop.description,
-        },
-      ],
-    }
-  },
   created() {
     const db = firebase.firestore()
     const dbShop = db.collection('shop').doc(this.$route.params.id)
@@ -121,7 +109,7 @@ export default Vue.extend({
 
 <style>
 h3 {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .back-btn {
